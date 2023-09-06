@@ -10,8 +10,10 @@ The following project extracts, transforms and loads data on crowdfunding campai
 ## Raw Data Sources
 - crowdfunding.xlsx
   This .xlsx file contained campaign data which was normalized in order to create category and subcategory tables
-  <img width="100" alt="image" src="https://github.com/gayajohn/Crowdfunding_ETL/assets/135036996/5e30a9e8-9315-41a1-880c-240abfca3a64">
   
+  <img width="100" alt="image" src="https://github.com/gayajohn/Crowdfunding_ETL/assets/135036996/5e30a9e8-9315-41a1-880c-240abfca3a64">
+  <img width="134" alt="image" src="https://github.com/gayajohn/Crowdfunding_ETL/assets/135036996/5c90cb07-c4ab-4e86-9d16-618140556fda">
+
 
 
 ## Project divided in the following subsections
