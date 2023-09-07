@@ -15,12 +15,14 @@ The following project extracts, transforms and loads data on crowdfunding campai
   - Crowdfunding_ERD.png, the ERD for the data
   - crowdfunding_db_scheme.sql, the script to create table schemata to load the data on SQL
   - Resources folder that contains:
+
     Data Sources: crowdfunding.xlsx ang contacts_raw.xlsx
+
     Generated Dataframes: campaign.csv, category.csv, subcategory.csv and contacts.csv
 
 - Additional Folders:
 
-  -  Gatayri - final work & Sanjiv - final work folders, containing individual scripts
+  -  Gayatri - final work & Sanjiv - final work folders, containing individual scripts
   -  Screenshot SQL: screenshots of data loaded on SQL
   
 ## Raw Data Sources
@@ -39,6 +41,7 @@ The following project extracts, transforms and loads data on crowdfunding campai
 - Creating the Category and Subcategory DataFrames
 
   Extract: extracted data from crowdfunding.xlsx about category and subcategory information.
+
   Transform: data normalized to generate category and subcategory dataframe, including generating primary keys.
 
   <img width="100" alt="image" src="https://github.com/gayajohn/Crowdfunding_ETL/assets/135036996/5e30a9e8-9315-41a1-880c-240abfca3a64">
@@ -48,6 +51,7 @@ The following project extracts, transforms and loads data on crowdfunding campai
 - Creating the Campaign DataFrame
 
   Extract: extracted campaign data from crowdfunding.xlsx, keeping only relevant columns, and changing column names as required.
+
   Transform: changed column datatypes as needed, and merged with category and subcategory dataframes, using foreign keys.
 
   <img width="440" alt="image" src="https://github.com/gayajohn/Crowdfunding_ETL/assets/135036996/81fa0009-ee84-4b55-bcf8-615b3de35fa0">
@@ -55,6 +59,7 @@ The following project extracts, transforms and loads data on crowdfunding campai
 - Creating the Contacts DataFrame
 
   Extract: extracted data from contacts.xlsx
+
   Transform: data normalized to create 4 categories, contact_id, first_name, last_name and email using regular expression and python dicitonary methods and generate contacts dataframe.
 
   ![image](https://github.com/gayajohn/Crowdfunding_ETL/assets/134953074/c45469ad-7801-4737-b386-01380a9f2846)
